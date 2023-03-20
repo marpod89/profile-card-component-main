@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position: right 49.9vw bottom 44vh, left 39vw top 47vh;
+}
+
+.card {
+  width: 32em;
+  height: 37em;
+  background-color: white;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.card__img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-image: url(../images/bg-pattern-card.svg);
+  background-size: cover;
+  height: 38%;
+}
+.card__img-victor {
+  position: absolute;
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid white;
+  bottom: -4.9em;
+}
+.card__info {
+  text-align: center;
+  padding-top: 7em;
+  color: hsl(229, 23%, 23%);
+}
+.card__info-nameAge {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-bottom: 0.5em;
+}
+.card__info-nameAge span {
+  color: hsl(227, 10%, 46%);
+  font-weight: normal;
+}
+.card__info-city {
+  font-size: 1.5rem;
+  color: hsl(227, 10%, 46%);
+  font-weight: normal;
+  padding-bottom: 1.4em;
+  border-bottom: 1px solid #000;
+}
+.card__stats {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.card__stats-blok-number {
+  padding-top: 0.8em;
+  font-weight: 700;
+  font-size: 1.8rem;
+}
+.card__stats-blok-text {
+  padding: 0.5em;
+  color: hsl(227, 10%, 46%);
+  font-weight: normal;
+  font-size: 1.2rem;
+}/*# sourceMappingURL=main.css.map */
